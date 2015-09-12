@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Yahoo Suite]" parallel="false">
+  <test name="Yahoo News Test(failed)">
+    <classes>
+      <class name="test.YahooNewsTest">
+        <methods>
+          <include name="xyz"/>
+          <include name="testYahooNews"/>
+        </methods>
+      </class>
+      <class name="test.YahooTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeConn"/>
+          <include name="openConn"/>
+          <include name="closeBrowser"/>
+          <include name="shutDownSelenium"/>
+          <include name="initializeSelenium"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

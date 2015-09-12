@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="alimoham-lap" name="test.YahooTest" tests="2" failures="0" timestamp="5 Sep 2015 17:39:51 GMT" time="0.007" errors="0">
+  <testcase name="testReceiveMail" time="0.0" classname="test.YahooTest"/>
+  <testcase name="testSendMail" time="0.0" classname="test.YahooTest"/>
+</testsuite>
